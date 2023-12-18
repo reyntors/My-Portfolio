@@ -7,7 +7,13 @@ import Adapt from '../../assets/adaptibility.png'
 import uiDesign from '../../assets/ui.png'
 import frontDev from '../../assets/frontend.png'
 import backDev from '../../assets/backend.png'
+import photoShop from '../../assets/photoshop.png'
+import figma from '../../assets/figma.png'
 import Fade from 'react-reveal/Fade';
+import reactUI from '../../assets/reactjs.png'
+import nodeUI from '../../assets/nodejs.png'
+import mongoUI from '../../assets/mongodb.png'
+
 
 
 const Skills = () => {
@@ -26,7 +32,12 @@ const Skills = () => {
                 <div className="skillBarText">
                     <h2>UI/UX Design</h2>
                     <p> Crafting seamless and visually appealing user interfaces is my forte. I specialize in turning ideas into interactive experiences that captivate users. Proficient in design tools such as Figma and Adobe Photoshop CS6, I bring concepts to life with a keen eye for aesthetics and usability.</p>
+              
+                    <img src={figma} alt="" className="skillBarImg" style={{margin: '0.5rem', height: '2rem', width: '2rem'}} />
+                    <img src={photoShop} alt="" className="skillBarImg" style={{margin: '0.5rem', height: '2rem', width: '2rem'}} /> 
+                
                 </div>
+                
             </div>
             </Fade>
             <Fade right>
@@ -35,6 +46,9 @@ const Skills = () => {
                 <div className="skillBarText">
                     <h2>Frontend Development</h2>
                     <p>  As a frontend developer, I specialize in building dynamic and responsive user interfaces. My proficiency includes leveraging cutting-edge technologies such as React.js  to create seamless and interactive web applications. I am committed to writing clean, maintainable code that ensures optimal user experiences across various devices and browsers.</p>
+                    
+                    <img src={reactUI} alt="" className="skillBarImg" style={{margin: '0.5rem', height: '2rem', width: '2rem'}} />
+        
                 </div>
             </div>
             </Fade>
@@ -44,6 +58,10 @@ const Skills = () => {
                 <div className="skillBarText">
                     <h2>Backend Development</h2>
                     <p>   In the realm of backend development, I thrive on architecting robust server-side solutions. Proficient in languages such as Node.js and Python, I design and implement scalable APIs, including RESTful API architecture, that power the core functionality of web applications. From database management to server optimization, I ensure the seamless operation of the digital backbone, contributing to the overall performance and reliability of the applications I build.</p>
+                 
+                    <img src={nodeUI} alt="" className="skillBarImg" style={{margin: '0.5rem', height: '2rem', width: '3rem'}} />
+                    <img src={mongoUI} alt="" className="skillBarImg" style={{margin: '0.5rem', height: '3rem', width: '3rem'}} />
+        
                 </div>
             </div>
             </Fade>
