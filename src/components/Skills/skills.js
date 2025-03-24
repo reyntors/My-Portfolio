@@ -13,6 +13,7 @@ import Fade from 'react-reveal/Fade';
 import reactUI from '../../assets/reactjs.png'
 import nodeUI from '../../assets/nodejs.png'
 import mongoUI from '../../assets/mongodb.png'
+import corelDraw from '../../assets/product-jpeg.jpg'
 
 
 
@@ -30,11 +31,12 @@ const Skills = () => {
             <div className="skillBar">
                 <img src={uiDesign} alt="" className="skillBarImg" />
                 <div className="skillBarText">
-                    <h2>UI/UX Design</h2>
+                    <h2>UI UX Design / Graphic Design</h2>
                     <p> Crafting seamless and visually appealing user interfaces is my forte. I specialize in turning ideas into interactive experiences that captivate users. Proficient in design tools such as Figma and Adobe Photoshop CS6, I bring concepts to life with a keen eye for aesthetics and usability.</p>
               
                     <img src={figma} alt="" className="skillBarImg" style={{margin: '0.5rem', height: '2rem', width: '2rem'}} />
                     <img src={photoShop} alt="" className="skillBarImg" style={{margin: '0.5rem', height: '2rem', width: '2rem'}} /> 
+                    <img src={corelDraw} alt="" className="skillBarImg" style={{margin: '0.5rem', height: '2rem', width: '2rem'}} /> 
                 
                 </div>
                 

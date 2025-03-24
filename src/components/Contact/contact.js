@@ -4,6 +4,7 @@ import Twitter from '../../assets/twitter.png'
 import Youtube from '../../assets/youtube.png'
 import Instagram from '../../assets/instagram.png'
 import Client from '../../assets/clients.png'
+import Client2 from '../../assets/miyags-logo.png'
 import emailjs from '@emailjs/browser';
 import Fade from 'react-reveal/Fade';
 import './contact.css';
@@ -34,6 +35,7 @@ const Contact = () => {
         <div className="clientImgs">
 
             <img src={Client} alt="" className="clientImg" />
+            <img src={Client2} alt="" className="clientImg" />
     
         </div>
         <div id="contact">
