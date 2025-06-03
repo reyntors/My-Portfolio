@@ -14,7 +14,8 @@ import reactUI from '../../assets/reactjs.png'
 import nodeUI from '../../assets/nodejs.png'
 import mongoUI from '../../assets/mongodb.png'
 import corelDraw from '../../assets/product-jpeg.jpg'
-
+import htmllogo from '../../assets/html.png'
+import bootstrap from '../../assets/bootstrap.png'
 
 
 const Skills = () => {
@@ -50,7 +51,8 @@ const Skills = () => {
                     <p>  As a frontend developer, I specialize in building dynamic and responsive user interfaces. My proficiency includes leveraging cutting-edge technologies such as React.js  to create seamless and interactive web applications. I am committed to writing clean, maintainable code that ensures optimal user experiences across various devices and browsers.</p>
                     
                     <img src={reactUI} alt="" className="skillBarImg" style={{margin: '0.5rem', height: '2rem', width: '2rem'}} />
-        
+                    <img src={htmllogo} alt="" className="skillBarImg" style={{margin: '0.5rem', height: '2rem', width: '2rem'}} />
+                    <img src={bootstrap} alt="" className="skillBarImg" style={{margin: '0.5rem', height: '2rem', width: '2rem'}} />
                 </div>
             </div>
             </Fade>
