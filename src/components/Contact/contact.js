@@ -6,7 +6,7 @@ import Instagram from '../../assets/instagram.png'
 import Client from '../../assets/clients.png'
 import Client2 from '../../assets/miyags-logo.png'
 import emailjs from '@emailjs/browser';
-import Fade from 'react-reveal/Fade';
+
 import './contact.css';
 
 const Contact = () => {
@@ -27,7 +27,7 @@ const Contact = () => {
 
   return (
     <section id="contactPage">
-        <Fade bottom>
+       
         <div id="clients">
            <h1 className="contactPageTitle">My Clients</h1>
             <p className="clientDesc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima a corrupti deleniti pariatur dolores doloribus autem repellat enim id iste!</p>
@@ -57,7 +57,7 @@ const Contact = () => {
                 </div>
             </form>
         </div>
-        </Fade>
+        
     </section>
   )
 }
