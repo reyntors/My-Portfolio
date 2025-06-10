@@ -9,7 +9,7 @@ import frontDev from '../../assets/frontend.png'
 import backDev from '../../assets/backend.png'
 import photoShop from '../../assets/photoshop.png'
 import figma from '../../assets/figma.png'
-import Fade from 'react-reveal/Fade';
+
 import reactUI from '../../assets/reactjs.png'
 import nodeUI from '../../assets/nodejs.png'
 import mongoUI from '../../assets/mongodb.png'
@@ -21,14 +21,14 @@ import bootstrap from '../../assets/bootstrap.png'
 const Skills = () => {
   return (
     <section id="skills">
-        <Fade bottom>
+
          <span className="skillTitle">What I do</span>
-         </Fade>
-         <Fade bottom>
+     
+
         <span className="skillDesc">I am thrive on transforming innovative concepts into reality, using my expertise in web technologies to create seamless and visually appealing solutions.</span>
-         </Fade>
+     
         <div className="skillBars">
-            <Fade left>
+         
             <div className="skillBar">
                 <img src={uiDesign} alt="" className="skillBarImg" />
                 <div className="skillBarText">
@@ -42,8 +42,7 @@ const Skills = () => {
                 </div>
                 
             </div>
-            </Fade>
-            <Fade right>
+         
             <div className="skillBar">
                 <img src={frontDev} alt="" className="skillBarImg" />
                 <div className="skillBarText">
@@ -55,8 +54,7 @@ const Skills = () => {
                     <img src={bootstrap} alt="" className="skillBarImg" style={{margin: '0.5rem', height: '2rem', width: '2rem'}} />
                 </div>
             </div>
-            </Fade>
-            <Fade left>
+         
             <div className="skillBar">
                 <img src={backDev} alt="" className="skillBarImg" />
                 <div className="skillBarText">
@@ -68,13 +66,13 @@ const Skills = () => {
         
                 </div>
             </div>
-            </Fade>
+           
         </div>
-        <Fade top>
+       
         <span className="skillTitle">Why choose me?</span>
-        </Fade>
+       
         <div className="skillBars">
-            <Fade left>
+          
             <div className="skillBar">
                 <img src={Innovative} alt="" className="skillBarImg" />
                 <div className="skillBarText">
@@ -82,8 +80,7 @@ const Skills = () => {
                     <p>I don't just build websites; I craft digital experiences. My approach is rooted in creativity, ensuring your project stands out in the ever-evolving online landscape.</p>
                 </div>
             </div>
-            </Fade>
-            <Fade right>
+          
             <div className="skillBar">
                 <img src={Technical} alt="" className="skillBarImg" />
                 <div className="skillBarText">
@@ -91,8 +88,7 @@ const Skills = () => {
                     <p>With a solid foundation in web development, I am proficient in cutting-edge technologies. From frontend design to backend functionality, I ensure your website is as robust as it is beautiful.</p>
                 </div>
             </div>
-            </Fade>
-            <Fade left>
+         
             <div className="skillBar">
                 <img src={Collab} alt="" className="skillBarImg" />
                 <div className="skillBarText">
@@ -100,8 +96,8 @@ const Skills = () => {
                     <p>I believe in the power of collaboration. By working closely with clients, I turn visions into reality, creating websites that not only meet but exceed expectations.</p>
                 </div>
             </div>
-            </Fade>
-            <Fade right>
+          
+        
             <div className="skillBar">
                 <img src={Adapt} alt="" className="skillBarImg" />
                 <div className="skillBarText">
@@ -109,7 +105,7 @@ const Skills = () => {
                     <p>In the fast-paced world of technology, adaptability is key. I stay ahead of the curve, integrating the latest trends and best practices to future-proof your digital presence.</p>
                 </div>
             </div>
-            </Fade>
+         
         </div>
        
     </section>

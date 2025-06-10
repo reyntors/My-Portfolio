@@ -2,11 +2,11 @@ import React from 'react';
 import './works.css';
 import Portfolio1 from '../../assets/MiyagsWebsite.jpg'
 import Portfolio2 from '../../assets/RandJWebsite.jpg'
-import Fade from 'react-reveal/Fade';
+
 const Works = () => {
   return (
     <section id="works">
-      <Fade bottom>
+    
         <h2 className="worksTitle">My Portfolio</h2>
         <span className="worksDesc">Welcome to my portfolio! Here, you'll find a showcase of my work, highlighting my skills, creativity, and experience. From innovative projects to carefully crafted designs, this collection represents my passion and dedication. Take a look around and feel free to reach out if you'd like to collaborate!</span>
         <div className="worksImgs">
@@ -21,7 +21,7 @@ const Works = () => {
             
         </div>
         <button className="workBtn">See More...</button>
-        </Fade>
+     
     </section>
   )
 }
