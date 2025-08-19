@@ -3,16 +3,24 @@ import './intro.css';
 import bg from '../../assets/image.JPG'
 import btnImg from '../../assets/hireme.png'
 import { Link } from 'react-scroll';
+import {motion } from 'framer-motion'
 
 
 
 const Intro = () => {
-  return (
+  return (   <motion.h1 
+              initial={{ opacity: 0, y: 100 }}  
+              whileInView={{ opacity: 1, y: 0 }} 
+              viewport={{ once: true, amount: 0.5 }} 
+              transition={{ duration: 1 }}
+              
+              >
     <section id='intro'>
-        <div className='introContent'>
-        
-        <span className="hello">Hello,</span>
       
+        <div className='introContent'>
+      
+        <span className="hello">Hello,</span>
+   
        
         <span className="introText">I'm <span className="introName">Reynard Z. Torculas</span><br/>Web Developer</span>
        
@@ -23,8 +31,9 @@ const Intro = () => {
        </div>
         
         <img src={bg} alt='' className='bg'/>
-        
+     
     </section>
+       </motion.h1>
   )
 }
 

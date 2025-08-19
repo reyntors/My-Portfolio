@@ -30,7 +30,7 @@ const Contact = () => {
        
         <div id="clients">
            <h1 className="contactPageTitle">My Clients</h1>
-            <p className="clientDesc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima a corrupti deleniti pariatur dolores doloribus autem repellat enim id iste!</p>
+            <p className="clientDesc">I’ve had the privilege of working with a diverse range of clients, from small businesses to established brands. Each project is built on collaboration, clear communication, and a commitment to delivering results that exceed expectations. My goal is to turn my clients’ visions into impactful, functional, and visually engaging solutions.</p>
         </div>
         <div className="clientImgs">
 

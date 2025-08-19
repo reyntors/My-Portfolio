@@ -9,6 +9,7 @@ import frontDev from '../../assets/frontend.png'
 import backDev from '../../assets/backend.png'
 import photoShop from '../../assets/photoshop.png'
 import figma from '../../assets/figma.png'
+import {motion} from 'framer-motion'
 
 import reactUI from '../../assets/reactjs.png'
 import nodeUI from '../../assets/nodejs.png'
@@ -21,14 +22,21 @@ import bootstrap from '../../assets/bootstrap.png'
 const Skills = () => {
   return (
     <section id="skills">
-
+              <motion.h1 
+              initial={{ opacity: 0, y: 100 }}  
+              whileInView={{ opacity: 1, y: 0 }} 
+              viewport={{ once: true, amount: 0.5 }} 
+              transition={{ duration: 1 }}
+              
+              >
          <span className="skillTitle">What I do</span>
-     
-
+       </motion.h1>
+    
         <span className="skillDesc">I am thrive on transforming innovative concepts into reality, using my expertise in web technologies to create seamless and visually appealing solutions.</span>
+
      
         <div className="skillBars">
-         
+            
             <div className="skillBar">
                 <img src={uiDesign} alt="" className="skillBarImg" />
                 <div className="skillBarText">
@@ -107,8 +115,9 @@ const Skills = () => {
             </div>
          
         </div>
-       
+  
     </section>
+         
   )
 }
 
